@@ -35,5 +35,14 @@ The following documents will help you to get started with YouTube:
 
 - [Getting and Implementing your YouTube API Key](./docs/youtube-api-key.md)
   
+# Group Info & project link
+
+- Bryant Mercedes
+
+- Fatema Kabir
+
+- Joshua Ewuoso
+
+- Sara Perkaj
 
 - Link to Trello Board: https://trello.com/b/NuffZKQb/youtube-gangggg
