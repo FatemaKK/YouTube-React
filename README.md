@@ -1,4 +1,3 @@
-
 # React YouTube
 
 Create a React application that lets you search for YouTube videos using the YouTube API, then choose a video from a list to watch.
@@ -35,15 +34,15 @@ You will make use of the following packages:
 The following documents will help you to get started with YouTube:
 
 - [Getting and Implementing your YouTube API Key](./docs/youtube-api-key.md)
-  
+
 # Group Info & project link
 
-- Bryant Mercedes
+- Bryant Mercedes: https://github.com/BryantMercedes212
 
-- Fatema Kabir
+- Fatema Kabir: https://github.com/FatemaKK
 
-- Joshua Ewuoso
+- Joshua Ewuoso: https://github.com/JoshuaEwuoso
 
-- Sara Perkaj
+- Sara Perkaj: https://github.com/saraperkaj
 
 - Link to Trello Board: https://trello.com/b/NuffZKQb/youtube-gangggg
