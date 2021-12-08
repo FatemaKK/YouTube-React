@@ -1,6 +1,7 @@
 import React from "react";
 
 class About extends React.Component {
+
   render() {
     return (
       <div>
@@ -10,6 +11,7 @@ class About extends React.Component {
             <p>
               I'm a developing Full-Stack Web Developer
             </p>
+      <a href="https://github.com/BryantMercedes212/YouTube-React">GitHub</a> 
           </section>
       </div>
         <section>
