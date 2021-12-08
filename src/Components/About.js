@@ -1,45 +1,45 @@
 import React from "react";
 
 class About extends React.Component {
-
   render() {
     return (
       <div>
         <div>
           <section>
             <h1>About Josh</h1>
-            <p>
-              I'm a developing Full-Stack Web Developer
-            </p>
+            <p>I'm a developing Full-Stack Web Developer</p>
           </section>
           <section>
             <h1>About Fatema</h1>
             <p>
-              I'm a Pursuit Full-Stack Development Fellow 
+              I'm a Pursuit Fellow aiming to become a Full-Stack Web Developer
             </p>
-            </section>
-            <section>
+          </section>
+          <section>
             <h1>About Bryant</h1>
-            <p></p>
-            </section>
-            <section>
+            <p>I'm a Full-Stack Web Developer</p>
+          </section>
+          <section>
             <h1>About Sev</h1>
-            <p></p>
-            </section>
-        <section>
-            <a href="https://github.com/BryantMercedes212/YouTube-React">GitHub</a> 
-        </section>
-      </div>
+            <p>I'm a Full-Stack Web Developer</p>
+          </section>
+          <section>
+            <a href="https://github.com/BryantMercedes212/YouTube-React">
+              GitHub
+            </a>
+          </section>
+        </div>
         <section>
           <h2>Project Description</h2>
-            <p>
-              This Project lets you search for YouTube videos using the YouTube
-              API, then choose a video from a list to watch. In this project we
-              use Trello Board to track the ToDo lists for this website like
-              functionality, styling, and etch. Furthermore, while we were working
-              on this project we encountered several roadblocks. For example, we
-              learned that some API's like Youtube have limited fetch quotas of 10,000 units.
-            </p>
+          <p>
+            This Project lets you search for YouTube videos using the YouTube
+            API, then choose a video from a list to watch. In this project we
+            use Trello Board to track the ToDo lists for this website like
+            functionality, styling, and etch. Furthermore, while we were working
+            on this project we encountered several roadblocks. For example, we
+            learned that some API's like Youtube have limited fetch quotas of
+            10,000 units.
+          </p>
         </section>
       </div>
     );
