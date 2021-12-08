@@ -11,8 +11,24 @@ class About extends React.Component {
             <p>
               I'm a developing Full-Stack Web Developer
             </p>
-      <a href="https://github.com/BryantMercedes212/YouTube-React">GitHub</a> 
           </section>
+          <section>
+            <h1>About Fatema</h1>
+            <p>
+              I'm a Pursuit Full-Stack Development Fellow 
+            </p>
+            </section>
+            <section>
+            <h1>About Bryant</h1>
+            <p></p>
+            </section>
+            <section>
+            <h1>About Sev</h1>
+            <p></p>
+            </section>
+        <section>
+            <a href="https://github.com/BryantMercedes212/YouTube-React">GitHub</a> 
+        </section>
       </div>
         <section>
           <h2>Project Description</h2>
