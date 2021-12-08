@@ -8,12 +8,6 @@ class About extends React.Component {
           <section>
             <h1>About Josh</h1>
             <p>I'm a developing Full-Stack Web Developer</p>
-          </section>
-          <section>
-            <h1>About Fatema</h1>
-            <p>I'm a Pursuit Full-Stack Development Fellow</p>
-          </section>
-          <section>
             <a href="https://github.com/BryantMercedes212/YouTube-React">
               GitHub
             </a>
