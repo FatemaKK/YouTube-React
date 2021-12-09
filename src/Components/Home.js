@@ -50,15 +50,15 @@ const Home = () => {
   return (
     <div>
       <h2>Search for some videos</h2>
-        <form onSubmit={handleSubmit}>
-          <input
-            onChange={handleChange}
-            type="text"
-            placeholder="search for a video"
-            value={input}>
-          </input>
-          <button type="submit">Search</button>
-        </form>
+      <form onSubmit={handleSubmit}>
+        <input
+          onChange={handleChange}
+          type="text"
+          placeholder="search for a video"
+          value={input}
+        ></input>
+        <button type="submit">Search</button>
+      </form>
       {hasSearched ? (
         <section id="videos-container">
           <ul>
@@ -69,7 +69,8 @@ const Home = () => {
                     <img
                       src={item.snippet.thumbnails.default.url}
                       title={item.id.videoId}
-                      alt={item.snippet.title}/>
+                      alt={item.snippet.title}
+                    />
                   </Link>
                   <p id="videoTitle">{item.snippet.title}</p>
                 </p>
