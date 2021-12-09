@@ -1,19 +1,21 @@
 import "./App.css";
-import React from "react";
-import { Routes, Route } from "react-router";
-import NavBar from "./Components/NavBar";
-import Home from "./Components/Home";
+
+import { Component } from "react";
+import { Routes, Route } from "react-router-dom";
 import About from "./Components/About";
+import Home from "./Components/Home";
+import NavBar from "./Components/NavBar";
+
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+
+      <div className="App">
         <NavBar />
-        <Home />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Home" element={<Home />} />
         </Routes>
       </div>
     );

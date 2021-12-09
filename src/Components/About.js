@@ -27,6 +27,7 @@ class About extends React.Component {
         </div>
         <section className="description">
           <h4>Project Description</h4>
+
           <p>
             This Project lets you search for YouTube videos using the YouTube
             API, then choose a video from a list to watch. In this project we
@@ -36,6 +37,7 @@ class About extends React.Component {
             learned that some API's like Youtube have limited fetch quotas of
             10,000 units.
           </p>
+
         </section>
         <section className="repo">
           <p>
@@ -44,6 +46,7 @@ class About extends React.Component {
               GitHub
             </a>
           </p>
+
         </section>
       </div>
     );
