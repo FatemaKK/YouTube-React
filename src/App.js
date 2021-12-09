@@ -1,59 +1,20 @@
 import "./App.css";
-import { Component } from "react";
+import React from "react";
+import { Routes, Route } from "react-router";
+import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
+import About from "./Components/About";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      Data: [],
-      userInput: "",
-    };
-  }
-
-  handleChange = (event) => {
-    this.setState({ userInput: event.target.value });
-  };
-
-  handleSubmit = (event) => {
-    event.preventDefault();
-    this.setState({
-      userInput: "",
-    });
-  };
-
-  componentDidUpdate() {
-    if (this.state.userInput.length === 0) return;
-
-    fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?q=${this.state.userInput}&key=${process.env.REACT_APP_API_KEY}`
-    )
-      .then((response) => response.json())
-      .then((Data) => {
-        this.setState({ Data: Data });
-        console.log(Data);
-      })
-      .catch((error) => {
-        console.log("error fetching data");
-      });
-  }
-
+class App extends React.Component {
   render() {
-    const { Data, userInput } = this.state;
     return (
-      <div className="App">
-        <form onSubmit={this.handleSubmit} className="Search-Form">
-          <input
-            onChange={this.handleChange}
-            type="text"
-            className="Search-Bar"
-            name="searchBar"
-            value={userInput}
-          ></input>
-          <button type="submit" className="Search-Button">
-            Search
-          </button>
-          <section></section>
-        </form>
+      <div>
+        <NavBar />
+        <Home />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </div>
     );
   }
