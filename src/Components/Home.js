@@ -1,8 +1,14 @@
-import { Component } from "react";
 
-class Home extends Component {
-  constructor() {
-    super();
+
+import React from "react";
+
+class Home extends React.Component {
+  render() {
+    return (
+      <div className="Home">
+        
+      </div>
+    );
   }
 }
 

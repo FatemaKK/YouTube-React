@@ -1,18 +1,16 @@
 import "./App.css";
+
 import { Component } from "react";
 import { Routes, Route } from "react-router-dom";
 import About from "./Components/About";
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
 
+class App extends React.Component {
   render() {
     return (
+
       <div className="App">
         <NavBar />
         <Routes>

@@ -1,34 +1,33 @@
 import React from "react";
+import "./About.css";
 
 class About extends React.Component {
   render() {
     return (
-      <div>
-        <div>
+      <div className="about">
+        <div className="members">
           <section>
-            <h1>About Josh</h1>
+            <h5>Bryant</h5>
+            <p>I'm a Full-Stack Web Developer</p>
+          </section>
+          <section>
+            <h5>Fatema</h5>
+            <p>
+              I'm a Pursuit Fellow aiming to become a Full-Stack Web Developer
+            </p>
+          </section>
+          <section>
+            <h5>Josh</h5>
             <p>I'm a developing Full-Stack Web Developer</p>
           </section>
           <section>
-            <h1>About Fatema</h1>
-            <p>I'm a Pursuit Full-Stack Development Fellow</p>
-          </section>
-          <section>
-            <h1>About Bryant</h1>
-            <p></p>
-          </section>
-          <section>
-            <h1>About Sev</h1>
-            <p></p>
-          </section>
-          <section>
-            <a href="https://github.com/BryantMercedes212/YouTube-React">
-              GitHub
-            </a>
+            <h5>Sev</h5>
+            <p>I'm a Full-Stack Web Developer</p>
           </section>
         </div>
-        <section>
-          <h2>Project Description</h2>
+        <section className="description">
+          <h4>Project Description</h4>
+
           <p>
             This Project lets you search for YouTube videos using the YouTube
             API, then choose a video from a list to watch. In this project we
@@ -38,6 +37,16 @@ class About extends React.Component {
             learned that some API's like Youtube have limited fetch quotas of
             10,000 units.
           </p>
+
+        </section>
+        <section className="repo">
+          <p>
+            Source Code :{" "}
+            <a href="https://github.com/BryantMercedes212/YouTube-React">
+              GitHub
+            </a>
+          </p>
+
         </section>
       </div>
     );
