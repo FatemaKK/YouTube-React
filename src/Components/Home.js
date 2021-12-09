@@ -65,14 +65,14 @@ const Home = () => {
             {videos.map((item) => {
               return (
                 <p onClick={showVideo} key={item.id.videoId}>
-                  <Link to={`/videos/${item.id.videoId}`} className="video">
+                  <Link to={`/Videos/${item.id.videoId}`} className="video">
                     <img
                       src={item.snippet.thumbnails.default.url}
                       title={item.id.videoId}
                       alt={item.snippet.title}
                     />
+                    <p id="videoTitle">{item.snippet.title}</p>
                   </Link>
-                  <p id="videoTitle">{item.snippet.title}</p>
                 </p>
               );
             })}
