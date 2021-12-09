@@ -8,6 +8,9 @@ const NavBar = () => {
       <nav>
         <ul className="nav-links">
           <li>
+            <Link to="/">Youtube</Link>
+          </li>
+          <li>
             <Link to="/Home">🅷🅾🅼🅴</Link>
           </li>
           <li>
