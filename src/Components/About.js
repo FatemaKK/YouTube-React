@@ -7,45 +7,43 @@ class About extends React.Component {
       <div className="about">
         <div className="members">
           <section>
-            <h5>Bryant</h5>
-            <p>I'm a Full-Stack Web Developer</p>
+            <h5 className="Bryant">Bryant</h5>
+            <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
           <section>
-            <h5>Fatema</h5>
-            <p>
-              I'm a Pursuit Fellow aiming to become a Full-Stack Web Developer
+            <h5 className="Fatema">Fatema</h5>
+            <p className="whiteSpace">
+              Hi, I am Fatema, a Pursuit Fellow aiming to become a Full-Stack Web Developer.
             </p>
           </section>
           <section>
-            <h5>Josh</h5>
-            <p>I'm a developing Full-Stack Web Developer</p>
+            <h5 className="Josh">Josh</h5>
+            <p className="whiteSpace">Hi & welcome! My name is Joshua Ewuoso, but you can call me Josh. New to the tech field, I began my journey into Pursuit to grow into a Full-Stack Web Engineer.</p>
           </section>
           <section>
-            <h5>Sev</h5>
-            <p>I'm a Full-Stack Web Developer</p>
+            <h5 className="Sev">Sev</h5>
+            <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
         </div>
-        <section className="description">
+        <section className="project">
           <h4>Project Description</h4>
-
-          <p>
+          <p className="description">
             This Project lets you search for YouTube videos using the YouTube
             API, then choose a video from a list to watch. In this project we
             use Trello Board to track the ToDo lists for this website like
-            functionality, styling, and etch. Furthermore, while we were working
+            functionality, styling, and fetch. Furthermore, while we were working
             on this project we encountered several roadblocks. For example, we
             learned that some API's like Youtube have limited fetch quotas of
             10,000 units.
           </p>
-
         </section>
         <section className="repo">
-          <p>
+          <h4>
             Source Code :{" "}
-            <a href="https://github.com/BryantMercedes212/YouTube-React">
+            <a className="repo-link" href="https://github.com/BryantMercedes212/YouTube-React">
               GitHub
             </a>
-          </p>
+          </h4>
 
         </section>
       </div>
