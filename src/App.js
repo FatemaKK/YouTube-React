@@ -6,7 +6,7 @@ import Home from "./Components/Home";
 import Video from "./Components/Video";
 import NavBar from "./Components/NavBar";
 import StartPage from "./Components/StartPage";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
           <Route path="/Videos/:id" element={<Video />} />
           <Route path="/About" element={<About />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

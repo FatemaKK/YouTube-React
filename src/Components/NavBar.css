@@ -16,7 +16,7 @@ nav {
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
+  margin-left: auto; 
   padding-left: 20%;
 }
 
@@ -29,3 +29,5 @@ nav {
 .nav-links li a:hover {
   text-shadow: 2px 2px black;
 }
+
+
