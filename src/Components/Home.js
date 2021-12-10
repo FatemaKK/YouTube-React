@@ -9,9 +9,9 @@ const Home = () => {
   const [hasSearched, setHasSearched] = useState(false);
   const [clickVideo, setClickVideo] = useState("");
 
-  const fetchVideos = async (prevSearch) => {
+  const fetchVideos = async () => {
     try {
-      const newInput = input || prevSearch;
+      const newInput = input || "Reactjs";
       const res = await axios.get(
         `https://youtube.googleapis.com/youtube/v3/search?q=${newInput}&part=snippet&key=${process.env.REACT_APP_API_KEY}`
       );
