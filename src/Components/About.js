@@ -7,26 +7,26 @@ class About extends React.Component {
       <div className="about">
         <div className="members">
           <section>
-            <h5 className="Bryant">Bryant</h5>
+            <h3 className="Bryant">Bryant</h3>
             <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
           <section>
-            <h5 className="Fatema">Fatema</h5>
+            <h3 className="Fatema">Fatema</h3>
             <p className="whiteSpace">
               Hi, I am Fatema, a Pursuit Fellow aiming to become a Full-Stack Web Developer.
             </p>
           </section>
           <section>
-            <h5 className="Josh">Josh</h5>
+            <h3 className="Josh">Josh</h3>
             <p className="whiteSpace">Hi & welcome! My name is Joshua Ewuoso, but you can call me Josh. New to the tech field, I began my journey into Pursuit to grow into a Full-Stack Web Engineer.</p>
           </section>
           <section>
-            <h5 className="Sev">Sev</h5>
+            <h3 className="Sev">Sev</h3>
             <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
         </div>
         <section className="project">
-          <h4>Project Description</h4>
+          <h3>Project Description</h3>
           <p className="description">
             This Project lets you search for YouTube videos using the YouTube
             API, then choose a video from a list to watch. In this project we
