@@ -1,109 +1,102 @@
 .about {
-  height: 80vh;
+  height: 50vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
-  padding: 10px;
-  margin: 10px;
+  color: white;
 }
 
 .members {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  /* background-color: rgb(125, 164, 172); */
 }
 
 .Bryant {
-  background-color: rgb(99, 205, 216);
+  background-color: rgb(134, 138, 138);
   margin: 10px;
   padding: 10px;
 }
 
 .Fatema {
-  background-color: rgb(99, 205, 216);
+  background-color: rgb(134, 138, 138);
   margin: 10px;
   padding: 10px;
 }
 
 .Josh {
-  background-color: rgb(99, 205, 216);
+  background-color: rgb(134, 138, 138);
   margin: 10px;
   padding: 10px;
 }
 
 .Sev {
-  background-color: rgb(99, 205, 216);
+  background-color: rgb(134, 138, 138);
   margin: 10px;
   padding: 10px;
 }
 
 .Bryant:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 .Fatema:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 .Josh:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 .Sev:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 .project {
-  padding-top: 30px;
-  padding-bottom: 30px;
   padding: 30px 10px 30px 10px;
   margin: 30px 10px 30px 10px;
-  background-color: rgb(99, 205, 216);
+  background-color: rgb(134, 138, 138);
 } 
 
 .project:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 h4 {
   padding: 10px;
   margin: 10px;
+  color: rgb(28, 28, 28);
 }
 
 .description {
-  padding: 0px  10px 0px 10px;
-  margin: 0px 10px 0px 10px;
+  padding: 8px  10px 8px 10px;
+  margin: 8px 10px 8px 10px;
 }
 
 .whiteSpace {
   height: 22vh;
-  background-color: rgb(99, 205, 216);
-  padding: 14px 10px 14px 10px;
+  background-color: rgb(134, 138, 138);
+  padding: 10px;
   margin: 10px;
   overflow: scroll;
 }
 
 .whiteSpace:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-  background-color: rgb(215, 122, 101);
+  background-color: #d71e18;
 }
 
 .repo {
-  padding: 10px;
-  padding-top: 60px;
   margin: auto;
 }
 
 .repo-link {
   color: rgb(69, 68, 68);
-  text-shadow: 1px 1px rgb(99, 205, 216);
+  text-shadow: 1px 1px #d71e18;
   text-decoration: none;
 }
