@@ -1,14 +1,14 @@
 
 .bottom {
-	position: absolute;
-	left: 0;
+	position: fixed;
+	padding: 10px 10px 0px 10px;
 	bottom: 0;
-	right: 0;
+	width: 100%;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	background-color: #d71e18;
 	color: white;
 	padding: 0.3cm;
-}
+  }
 
