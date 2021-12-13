@@ -7,21 +7,21 @@ class About extends React.Component {
       <div className="about">
         <div className="members">
           <section>
-            <h3 className="Bryant">Bryant</h3>
+            <h3 className="name">Bryant</h3>
             <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
           <section>
-            <h3 className="Fatema">Fatema</h3>
+            <h3 className="name">Fatema</h3>
             <p className="whiteSpace">
               Hi, I am Fatema, a Pursuit Fellow aiming to become a Full-Stack Web Developer.
             </p>
           </section>
           <section>
-            <h3 className="Josh">Josh</h3>
+            <h3 className="name">Josh</h3>
             <p className="whiteSpace">Hi & welcome! My name is Joshua Ewuoso, but you can call me Josh. New to the tech field, I began my journey into Pursuit to grow into a Full-Stack Web Engineer.</p>
           </section>
           <section>
-            <h3 className="Sev">Sev</h3>
+            <h3 className="name">Sev</h3>
             <p className="whiteSpace">I'm a Full-Stack Web Developer</p>
           </section>
         </div>
