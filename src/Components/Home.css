@@ -1,0 +1,68 @@
+.Home {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(217, 221, 224);
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+}
+
+#videos-container {
+  width: 900px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#videoTitle {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.singleVideo {
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.videoImg {
+  padding-left: 20px;
+  height: 160px;
+  width: 250px;
+}
+
+#videoTitle {
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+button {
+  border-radius: 50%;
+  padding: 10px;
+  background: radial-gradient(purple, red);
+}
+input {
+  padding: 4px;
+  background: linear-gradient(purple, red);
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}

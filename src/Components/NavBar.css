@@ -9,6 +9,20 @@ nav {
   background: #d71e18;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin-left: 30px;
+}
+.logo {
+  margin-top: 8px;
+  margin-bottom: 3px;
+  border-radius: 20px;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
