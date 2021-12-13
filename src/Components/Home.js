@@ -13,7 +13,11 @@ const Home = () => {
 
   const fetchVideos = async () => {
     try {
+<<<<<<< HEAD
       const newInput = input || " ";
+=======
+      const newInput = input || "Reactjs";
+>>>>>>> 1cc6a5c91e16f8d84f72b59104b31859b11e6f69
       const res = await axios.get(
         `https://youtube.googleapis.com/youtube/v3/search?q=${newInput}&part=snippet&maxResults=6&key=${process.env.REACT_APP_API_KEY}`
       );

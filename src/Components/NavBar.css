@@ -30,7 +30,7 @@ h3 {
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
+  margin-left: auto; 
   padding-left: 20%;
 }
 
@@ -43,3 +43,5 @@ h3 {
 .nav-links li a:hover {
   text-shadow: 2px 2px black;
 }
+
+

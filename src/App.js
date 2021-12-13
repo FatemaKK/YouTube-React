@@ -20,7 +20,7 @@ class App extends Component {
           <Route path="/Videos/:id" element={<Video />} />
           <Route path="/About" element={<About />} />
         </Routes>
-        <Footer />
+        <Footer /> 
       </div>
     );
   }
