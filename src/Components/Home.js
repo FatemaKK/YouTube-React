@@ -15,7 +15,7 @@ const Home = () => {
     try {
       const newInput = input || "Reactjs";
       const res = await axios.get(
-        `https://youtube.googleapis.com/youtube/v3/search?q=${newInput}&part=snippet&maxResults=9&key=${process.env.REACT_APP_API_KEY}`
+        `https://youtube.googleapis.com/youtube/v3/search?q=${newInput}&part=snippet&maxResults=6&key=${process.env.REACT_APP_API_KEY}`
       );
       setVideos(res.data.items);
     } catch (error) {
