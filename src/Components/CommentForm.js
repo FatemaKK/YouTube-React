@@ -44,7 +44,7 @@ class CommentForm extends Component {
       return (
         <li>
           <h3>{comment.name} says:</h3>
-          <p>{comment.commentInput}</p>
+          <p className="comment">{comment.commentInput}</p>
         </li>
       );
     });
@@ -71,7 +71,7 @@ class CommentForm extends Component {
           />
           <button type="submit">Comment</button>
         </form>
-        <ul>{eachComment}</ul>
+        <ul className="theComments">{eachComment}</ul>
       </div>
     );
   }

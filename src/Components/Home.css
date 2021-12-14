@@ -1,71 +1,79 @@
 .Home {
-	height: 86vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	justify-content: space-around;
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 body {
-	background-color: rgb(217, 221, 224);
+  background-color: rgb(217, 221, 224);
 }
 
 h2 {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
 }
 
 #videos-container {
-	width: 900px;
-	display: flex;
-	list-style: none;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  width: 900px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #videoTitle {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .singleVideo {
-	flex-direction: column;
-	align-items: center;
-	width: 260px;
-	height: 200px;
-	margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .videoImg {
-	padding-left: 20px;
-	height: 160px;
-	width: 250px;
+  padding-left: 20px;
+  height: 160px;
+  width: 250px;
 }
 
 #videoTitle {
-	padding-left: 10%;
-	padding-top: 1%;
+  padding-left: 10%;
+  padding-top: 1%;
 }
 
 button {
-	border-radius: 50%;
-	padding: 10px;
-	background: radial-gradient(purple, red);
+  border-radius: 50%;
+  padding: 10px;
+  background: radial-gradient(purple, red);
 }
 input {
-	padding: 4px;
-	background: linear-gradient(purple, red);
-	color: white;
+  padding: 4px;
+  background: linear-gradient(purple, red);
+  color: white;
 }
 
 ::placeholder {
-	color: white;
-	opacity: 1;
+  color: white;
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+.comment {
+  padding-left: 50px;
 }
