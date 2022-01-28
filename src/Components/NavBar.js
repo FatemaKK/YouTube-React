@@ -19,10 +19,10 @@ const NavBar = () => {
         </h3>
         <ul className="nav-links">
           <li>
-            <Link to="/Home">🅷🅾🅼🅴</Link>
+            <Link to="/Home">HOME</Link>
           </li>
           <li>
-            <Link to="/About">🅰🅱🅾🆄🆃</Link>
+            <Link to="/About">ABOUT</Link>
           </li>
         </ul>
       </nav>
